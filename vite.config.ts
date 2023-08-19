@@ -5,8 +5,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "vue3-notify",
-      fileName: (format) => `vue3-notify.${format}.js`,
+      name: "vue3-notification",
+      fileName: (format) => `vue3-notification.${format}.js`,
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

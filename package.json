@@ -1,15 +1,15 @@
 {
-  "name": "vue3-notify",
+  "name": "vue3-notification",
   "version": "0.0.1",
-  "main": "./dist/vue3-notify.umd.js",
-  "module": "./dist/vue3-notify.es.js",
+  "main": "./dist/vue3-notification.umd.js",
+  "module": "./dist/vue3-notification.es.js",
   "files": [
     "dist"
   ],
   "exports": {
     ".": {
-      "import": "./dist/vue3-notify.es.js",
-      "require": "./dist/vue3-notify.umd.js"
+      "import": "./dist/vue3-notification.es.js",
+      "require": "./dist/vue3-notification.umd.js"
     },
     "./style": "./dist/style.css"
   },
@@ -50,7 +50,7 @@
     "notification-center",
     "snotify",
     "vue3-snotify",
-    "vue3-notify",
+    "vue3-notification",
     "vuejs notifications",
     "vue3 notifications",
     "vue3 toaster"
