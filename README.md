@@ -6,7 +6,7 @@ npm i --save vue3-notify
 
 In main.ts : 
 ```ts
-import notify from 'vue3-notify';
+import notify from 'vue3-notification';
 
 const app = createApp(App)
 
