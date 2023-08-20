@@ -1,6 +1,7 @@
 {
   "name": "vue3-notification",
   "version": "0.0.1",
+  "type": "module",
   "main": "./dist/vue3-notification.umd.js",
   "module": "./dist/vue3-notification.es.js",
   "files": [
@@ -27,6 +28,7 @@
     "sass": "^1.42.1",
     "typescript": "^4.4.3",
     "vite": "^2.5.10",
+    "vite-plugin-libcss": "^1.1.1",
     "vue-tsc": "^0.3.0"
   },
   "author": {
