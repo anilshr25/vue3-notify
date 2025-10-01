@@ -9,7 +9,7 @@ export default {
 		const service = new SnotifyService();
 		service.setDefaults(options);
 		app.config.globalProperties.$snotify = service;
-		app.component('vue3-notify', Snotify);
+		app.component('Vue3Notify', Snotify);
 		app.provide('vue3-notify', service);
 	}
 }
